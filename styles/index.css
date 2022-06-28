@@ -35,6 +35,27 @@ button {
   text-align: center;
 }
 
+.filter-zone {
+  display: grid;
+  grid-template-columns: (1, 100vw);
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.bc-buttons {
+  display: grid;
+  padding: 1rem;
+  grid-gap: 1rem;
+}
+
+
+
+#store h2 {
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 .store--item-list {
   display: grid;
   grid-template-columns: repeat(4, 125px);
@@ -51,6 +72,10 @@ button {
 .store--item-icon {
   width: 125px;
   height: 125px;
+}
+
+.store--item-icon-hidden {
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
